@@ -34,13 +34,15 @@ const Types = () => {
               Soloing
             </a>
           </li>
+          <br />
         </ul>
       </div>
+
       <div className="block-2">
         <div className="box-1">
           <div id="bouldering">
             <h3>Bouldering</h3>
-            <div className="box-2">
+            <div className="box-2 group-a">
               <div className="container">
                 <img
                   src="https://i.lensdump.com/i/t0zAXF.jpg"
@@ -65,11 +67,12 @@ const Types = () => {
           </div>
         </div>
       </div>
+
       <div className="block-3">
         <div className="box-1">
           <div id="top-rope">
             <h3>Top Roping</h3>
-            <div className="box-2">
+            <div className="box-2 group-b">
               <div className="box-3">
                 <p className="box-b">
                   Top rope climbing (or top roping) is a style in climbing in which the
@@ -95,11 +98,12 @@ const Types = () => {
           </div>
         </div>
       </div>
-      <div className="block-4">
+
+      <div className="block-2">
         <div className="box-1">
           <div id="lead">
             <h3>Lead (Sport)</h3>
-            <div className="box-2">
+            <div className="box-2 group-a">
               <div className="container">
                 <img
                   src="https://i2.lensdump.com/i/t0zj40.jpg"
@@ -126,11 +130,12 @@ const Types = () => {
           </div>
         </div>
       </div>
-      <div className="block-6">
+
+      <div className="block-3">
         <div className="box-1">
           <div id="trad">
             <h3>Traditional (Trad)</h3>
-            <div className="box-2">
+            <div className="box-2 group-b">
               <div className="box-3">
                 <p className="box-b">
                   Traditional climbing (or Trad climbing), is a style of rock climbing in
@@ -154,11 +159,12 @@ const Types = () => {
           </div>
         </div>
       </div>
-      <div className="block-5">
+
+      <div className="block-2">
         <div className="box-1">
           <div id="soloing">
             <h3>Soloing</h3>
-            <div className="box-2">
+            <div className="box-2 group-a">
               <div className="container">
                 <a href="https://lensdump.com/i/t0z0ND">
                   <img
