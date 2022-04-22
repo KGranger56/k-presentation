@@ -1,0 +1,50 @@
+img {
+  max-width: 200px;
+  max-height: auto;
+  display: flex;
+  margin: 0 auto;
+}
+
+img:hover {
+  max-width: 300%;
+}
+
+types.box-1,
+types.box-2 {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container {
+  flex-direction: row;
+  max-width: 40%;
+}
+
+.box-a,
+.box-b {
+  flex-direction: row;
+  max-width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+}
+
+.box-a {
+  justify-content: flex-start;
+}
+
+.box-b {
+  justify-content: flex-end;
+}
+
+@media (max-width: 576px) {
+  [class^="box-"] {
+    flex-direction: column;
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  img {
+    display: none;
+  }
+}
