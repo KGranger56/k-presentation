@@ -1,0 +1,27 @@
+div.footer {
+  padding-top: 10px;
+  display: flex;
+  max-width: 30%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 28px;
+}
+.facebook {
+  color: #2d88ff;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.linkedin {
+  color: #0a66c2;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.github {
+  color: rgb(240 246 252 / 70%);
+  background-color: black;
+  padding-left: 3px;
+  padding-right: 3px;
+}
