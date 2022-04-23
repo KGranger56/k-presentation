@@ -10,7 +10,7 @@ p {
   font-size: 0.75em;
 }
 
-.box-1:not(.title) {
+.equipment .box-1:not(.title) {
   border: 1px solid rgb(255, 255, 255);
   border-radius: 10px;
   margin: 10px 0px;
@@ -37,13 +37,13 @@ p {
   justify-content: flex-end;
 }
 
-ul {
+.equipment ul {
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 10px;
 }
 
-li {
+.equipment li {
   display: flex;
   text-align: center;
   padding-left: 4px;
