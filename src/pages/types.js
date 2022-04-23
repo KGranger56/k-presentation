@@ -73,7 +73,7 @@ const Types = () => {
           <div id="top-rope">
             <h3>Top Roping</h3>
             <div className="box-2 group-b">
-              <div className="box-3">
+              <div className="box-3 a">
                 <p className="box-b">
                   Top rope climbing (or top roping) is a style in climbing in which the
                   climber is securely attached to a rope which then passes up, through an
@@ -136,7 +136,7 @@ const Types = () => {
           <div id="trad">
             <h3>Traditional (Trad)</h3>
             <div className="box-2 group-b">
-              <div className="box-3">
+              <div className="box-3 a">
                 <p className="box-b">
                   Traditional climbing (or Trad climbing), is a style of rock climbing in
                   which the climber places all the necessary protection gear required to
@@ -185,7 +185,7 @@ const Types = () => {
               </div>
             </div>
             <br />
-            <a href="#types">
+            <a href="#app">
               <em>Back to top</em>
             </a>
           </div>
