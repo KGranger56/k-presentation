@@ -1,0 +1,38 @@
+.back-to-top {
+  display: flex;
+  justify-content: center;
+}
+
+.safety h2 {
+  color: red;
+}
+
+.safety h2 {
+  margin-top: 0%;
+}
+
+.safety h3 {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: blue;
+}
+
+p {
+  color: rgb(0, 204, 255);
+}
+
+.row {
+  display: flex;
+}
+
+.safety .block-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.safety [class^="box-"] {
+  display: flex;
+  align-items: top;
+}
