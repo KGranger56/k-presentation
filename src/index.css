@@ -1,8 +1,3 @@
-:root {
-  background-color: black;
-  color: white;
-}
-
 [class^="block-"] {
   display: flex;
   max-width: 800px;
@@ -22,9 +17,23 @@
 
 a {
   text-decoration: none;
-  color: white;
   margin-top: 0px;
   margin-bottom: 0px;
+  color: black;
+}
+
+h1 {
+  margin-bottom: 4px;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.back-to-top {
+  display: flex;
+  justify-content: center;
+  color: black;
+  opacity: 75%;
+  margin-bottom: 15px;
 }
 
 .types.block-1,

@@ -11,7 +11,7 @@ p {
 }
 
 .equipment .box-1:not(.title) {
-  border: 1px solid rgb(255, 255, 255);
+  border: 4px solid black;
   border-radius: 10px;
   margin: 10px 0px;
   padding: 0px 5px;
@@ -48,4 +48,10 @@ p {
   text-align: center;
   padding-left: 4px;
   padding-right: 4px;
+}
+
+@media (max-width: 576px) {
+  .new-row {
+    white-space: pre-line;
+  }
 }

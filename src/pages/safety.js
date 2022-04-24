@@ -28,10 +28,7 @@ const Safety = () => {
         </div>
         <div className="row">
           <div className="box-a">
-            <h3>
-              Be smart. If you top rope or above, you will tie thousands of knots in your
-              carrer of climbing.
-            </h3>
+            <h3>If you climb with a rope, you will tie thousands of knots.</h3>
             <p>Be cognizent of your knots. Double check them every time.</p>
           </div>
           <div className="box-b">
