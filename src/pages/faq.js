@@ -60,5 +60,3 @@ const FAQ = () => {
 };
 
 export default FAQ;
-
-/*Common Terminology> Send it! Flash!*/

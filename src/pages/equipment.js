@@ -19,7 +19,6 @@ const Equipment = () => {
             </a>{" "}
             of climbing will require some basic equipment
           </h3>
-          {/*add image of general equipment*/}
         </div>
       </div>
 
