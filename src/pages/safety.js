@@ -6,7 +6,10 @@ const Safety = () => {
     <div className="safety">
       <div className="block-1">
         <div id="safety" />
-        <h1>Safety Considerations</h1>
+        <h1>
+          Safety Considerations
+          <hr />
+        </h1>
         <h2>Climbing is a dangerous sport.</h2>
       </div>
       <div className="block-2">

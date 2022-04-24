@@ -1,5 +1,5 @@
 .safety h2 {
-  color: red;
+  color: #fd3333;
 }
 
 .safety h2 {
@@ -10,12 +10,8 @@
   display: flex;
   margin-bottom: 10px;
   font-size: 26px;
-  color: blue;
+  color: #148eeb;
   margin-top: 10px;
-}
-
-.safety p {
-  color: rgb(0, 204, 255);
 }
 
 .row {

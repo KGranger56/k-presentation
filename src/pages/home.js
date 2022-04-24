@@ -5,7 +5,9 @@ const Home = () => {
   return (
     <div className="home">
       <div className="block-1">
-        <h1>Kelly Granger</h1>
+        <h1>
+          Kelly Granger <hr />
+        </h1>
         <h5>Austin, TX</h5>
       </div>
 
