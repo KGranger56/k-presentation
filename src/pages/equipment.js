@@ -203,62 +203,66 @@ const Equipment = () => {
         <div className="box-1">
           <h3>Trad</h3>
 
-          <ul>
-            <li>
-              <a href="#shoes">
-                <div className="item">Shoes</div>
-                <div className="see">See description above.</div>
-              </a>
-            </li>
-            <li>
-              <a href="#chalk">
-                <div className="item">Chalk</div>
-                <div className="see">See description above.</div>
-              </a>
-            </li>
-            <li>
-              <a href="#harness">
-                <div className="item">Harness</div>
-                <div className="see">See description above.</div>
-              </a>
-            </li>
-            <li>
-              <a href="#belayer">
-                <div className="item">Belayer</div>
-                <div className="see">See description above.</div>
-              </a>
-            </li>
-            <li>
-              <a href="#device">
-                <div className="item">Belay Device</div>
-                <div className="see">See description above.</div>
-              </a>
-            </li>
-            <li>
-              <a href="#rope">
-                <div className="item">Rope</div>
-                <div className="see">See description above.</div>
-              </a>
-            </li>
-            <li>
-              <a href="#quick-draws">
-                <div className="item">Quick Draws</div>
-                <div className="see">See description above.</div>
-              </a>
-            </li>
-            <li>
-              <a href="#helmet">
-                <div className="item">Helmet</div>
-                <div className="see">See description above.</div>
-              </a>
-            </li>
-            <li>
-              <a href="#pas">
-                <div className="item">Personal Anchor System (PAS)</div>
-                <div className="see">See description above.</div>
-              </a>
-            </li>
-          </ul>
+          <div>
+            <ul className="trad-above">
+              <li>
+                <a href="#shoes">
+                  <div className="item">Shoes</div>
+                  <div className="see">See description above.</div>
+                </a>
+              </li>
+              <li>
+                <a href="#chalk">
+                  <div className="item">Chalk</div>
+                  <div className="see">See description above.</div>
+                </a>
+              </li>
+              <li>
+                <a href="#harness">
+                  <div className="item">Harness</div>
+                  <div className="see">See description above.</div>
+                </a>
+              </li>
+              <li>
+                <a href="#belayer">
+                  <div className="item">Belayer</div>
+                  <div className="see">See description above.</div>
+                </a>
+              </li>
+              <li>
+                <a href="#device">
+                  <div className="item">Belay Device</div>
+                  <div className="see">See description above.</div>
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li className="new-row">
+                <a href="#rope">
+                  <div className="item">Rope</div>
+                  <div className="see">See description above.</div>
+                </a>
+              </li>
+              <li>
+                <a href="#quick-draws">
+                  <div className="item">Quick Draws</div>
+                  <div className="see">See description above.</div>
+                </a>
+              </li>
+              <li>
+                <a href="#helmet">
+                  <div className="item">Helmet</div>
+                  <div className="see">See description above.</div>
+                </a>
+              </li>
+              <li>
+                <a href="#pas">
+                  <div className="item">Personal Anchor System (PAS)</div>
+                  <div className="see">See description above.</div>
+                </a>
+              </li>
+            </ul>
+          </div>
 
           <div className="row-1">
             <div className="column-1">

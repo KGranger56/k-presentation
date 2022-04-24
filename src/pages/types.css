@@ -1,3 +1,15 @@
+.types h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+}
+
+.jump-to {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
 #soloing,
 #bouldering,
 #lead,
@@ -18,18 +30,13 @@ img {
   border-radius: 10px;
 }
 
-.types img:hover {
-  max-width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+/*img:hover:not(.kelly-img) {
+  max-width: 75%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   transition: all 0.3s ease-out;
-}
+}*/
 
 .group-a,
 .group-b {
@@ -41,6 +48,7 @@ img {
   font-size: 20px;
   padding: 16px;
   margin: 0 auto;
+  justify-content: flex-start;
 }
 
 @media (max-width: 576px) {
