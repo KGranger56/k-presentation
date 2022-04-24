@@ -6,7 +6,10 @@ const FAQ = () => {
     <div className="faq">
       <div className="block-1">
         <div className="box-1">
-          <h1>Frequently Asked Questions</h1>
+          <h1>
+            Frequently Asked Questions
+            <hr />
+          </h1>
           <div className="question">
             <h3>How are Climbs rated</h3>
             <h5>Bouldering</h5>
@@ -38,12 +41,17 @@ const FAQ = () => {
             </p>
           </div>
           <div className="question">
-            <h3>Send It!</h3>
-            <p>An encouraging statement made to a climber.</p>
-          </div>
-          <div className="question">
-            <h3>Flash</h3>
-            <p>A term to describe completing your route on your first attempt.</p>
+            <h3>Common Terminology</h3>
+            <div className="question-1">
+              <div className="q-1">
+                <h5>Send It!</h5>
+                <p>An encouraging statement made to a climber.</p>
+              </div>
+              <div className="q-2">
+                <h5>Flash</h5>
+                <p>Completing a route on your first attempt.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -52,3 +60,5 @@ const FAQ = () => {
 };
 
 export default FAQ;
+
+/*Common Terminology> Send it! Flash!*/

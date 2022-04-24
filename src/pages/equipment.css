@@ -5,6 +5,11 @@ p {
   display: flex;
 }
 
+.equipment h5,
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .see {
   opacity: 30%;
   font-size: 0.75em;
@@ -48,6 +53,15 @@ p {
   text-align: center;
   padding-left: 4px;
   padding-right: 4px;
+}
+
+.container-equip {
+  flex-direction: row;
+  display: flex;
+}
+
+.equip-img {
+  max-width: 100px;
 }
 
 @media (max-width: 576px) {

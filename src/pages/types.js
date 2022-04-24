@@ -6,7 +6,10 @@ const Types = () => {
     <div className="types">
       <div className="block-1 ">
         <div id="types">
-          <h1>Types of Climbing</h1>
+          <h1>
+            Types of Climbing
+            <hr />
+          </h1>
         </div>
         <ul className="jump-to">
           <li>

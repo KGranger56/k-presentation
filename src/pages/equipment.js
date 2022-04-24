@@ -7,7 +7,10 @@ const Equipment = () => {
       <div id="equipment" />
       <div className="block-1">
         <div className="box-1 title">
-          <h1>Equipment</h1>
+          <h1>
+            Equipment
+            <hr />
+          </h1>
           <h3>
             {" "}
             Different{" "}
@@ -16,6 +19,7 @@ const Equipment = () => {
             </a>{" "}
             of climbing will require some basic equipment
           </h3>
+          {/*add image of general equipment*/}
         </div>
       </div>
 
@@ -60,6 +64,26 @@ const Equipment = () => {
                 designated for bouldering will have permanent pads.
               </p>
             </div>
+          </div>
+          <div className="container-equip">
+            <img
+              src="https://i3.lensdump.com/i/tZrPj5.jpg"
+              alt="tZrPj5.jpg"
+              border="0"
+              className="equip-img"
+            />
+            <img
+              src="https://i.lensdump.com/i/tZrfqz.jpg"
+              alt="tZrfqz.jpg"
+              border="0"
+              className="equip-img"
+            />
+            <img
+              src="https://i1.lensdump.com/i/tZrFYT.jpg"
+              alt="tZrFYT.jpg"
+              border="0"
+              className="equip-img"
+            />
           </div>
         </div>
       </div>
@@ -106,6 +130,20 @@ const Equipment = () => {
                 and lower a climber to the ground.
               </p>
             </div>
+          </div>
+          <div className="container-equip">
+            <img
+              src="https://i.lensdump.com/i/tZtdFv.jpg"
+              alt="tZtdFv.jpg"
+              border="0"
+              className="equip-img"
+            />
+            <img
+              src="https://i3.lensdump.com/i/tZt6Jm.jpg"
+              alt="tZt6Jm.jpg"
+              border="0"
+              className="equip-img"
+            />
           </div>
         </div>
       </div>
@@ -196,6 +234,26 @@ const Equipment = () => {
               </p>
             </div>
           </div>
+          <div className="container-equip">
+            <img
+              src="https://i3.lensdump.com/i/tZt6Jm.jpg"
+              alt="tZt6Jm.jpg"
+              border="0"
+              className="equip-img"
+            />
+            <img
+              src="https://i1.lensdump.com/i/tZtJxo.jpg"
+              alt="tZtJxo.jpg"
+              border="0"
+              className="equip-img"
+            />
+            <img
+              src="https://i2.lensdump.com/i/tZtVR9.jpg"
+              alt="tZtVR9.jpg"
+              border="0"
+              className="equip-img"
+            />
+          </div>
         </div>
       </div>
 
@@ -277,6 +335,20 @@ const Equipment = () => {
                 being appropriate to the placement.
               </p>
             </div>
+          </div>
+          <div className="container-equip">
+            <img
+              src="https://i2.lensdump.com/i/tZtYQQ.jpg"
+              alt="tZtYQQ.jpg"
+              border="0"
+              className="equip-img"
+            />
+            <img
+              src="https://i3.lensdump.com/i/tZt972.jpg"
+              alt="tZt972.jpg"
+              border="0"
+              className="equip-img"
+            />
           </div>
         </div>
       </div>

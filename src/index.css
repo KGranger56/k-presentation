@@ -28,6 +28,11 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+hr {
+  color: black;
+  margin-top: 5px;
+}
+
 .back-to-top {
   display: flex;
   justify-content: center;
